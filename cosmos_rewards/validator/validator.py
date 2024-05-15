@@ -46,8 +46,9 @@ def edit_validator():
     details = read_profile_variable("DETAILS")
     website = read_profile_variable("WEBSITE")
     wallet_name = read_profile_variable("WALLET_NAME")
+    network_name = read_profile_variable("NETWORK_NAME")
     binary_name = read_profile_variable("BINARY_NAME")
-    fees_amount = read_profile_variable("FEES_AMOUNT")
+    commission_amount = read_profile_variable("COMMISSION_AMOUNT")
     token_denom = read_profile_variable("TOKEN_DENOM")
 
     if not new_moniker:
@@ -68,13 +69,16 @@ def edit_validator():
     if not binary_name:
         binary_name = input("Enter the binary name: ")
         write_profile_variable("BINARY_NAME", binary_name)
-    if not fees_amount:
-        fees_amount = input("Enter the fees amount: ")
-        write_profile_variable("FEES_AMOUNT", fees_amount)
+    if not commission_amount:
+        commission_amount = input("Enter the fees amount: ")
+        write_profile_variable("COMMISSION_AMOUNT", commission_amount)
     if not token_denom:
         token_denom = input("Enter the token denomination: ")
         write_profile_variable("TOKEN_DENOM", token_denom)
+    if not network_name:
+        network_name = input("Enter the network name: ")
+        write_profile_variable("NETWORK_NAME", network_name)
 
-    edit_command = f"{binary_name} tx staking edit-validator --new-moniker {new_moniker} --identity {identity} --details \"{details}\" --website {website} --chain-id andromeda-1 --commission-rate 0.05 --from {wallet_name} --fees {fees_amount}{token_denom} --yes"
+    edit_command = f"{binary_name} tx staking edit-validator --new-moniker {new_moniker} --identity {identity} --details \"{details}\" --website {website} --chain-id {network_name} --commission-rate 0.05 --from {wallet_name} --fees {commission_amount}{token_denom} --yes"
     subprocess.run(edit_command, shell=True)
     print("Validator updated successfully.")

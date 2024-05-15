@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f509dec3-1c0f-4f19-8230-a0de8c958481" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="f509dec3-1c0f-4f19-8230-a0de8c958481" name="Changes" comment="add val_edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos_rewards/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos_rewards/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cosmos_rewards/validator/validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos_rewards/validator/validator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +54,22 @@
       <updated>1715784222656</updated>
       <workItem from="1715784224035" duration="3147000" />
     </task>
+    <task id="LOCAL-00001" summary="add val_edit">
+      <option name="closed" value="true" />
+      <created>1715791798228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715791798228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add val_edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add val_edit" />
   </component>
 </project>
