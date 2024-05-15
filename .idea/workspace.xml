@@ -62,7 +62,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715791798228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add val_edit">
+      <option name="closed" value="true" />
+      <created>1715792356132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715792356132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +78,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add val_edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add val_edit" />
+    <MESSAGE value="fix val_edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix val_edit" />
   </component>
 </project>
