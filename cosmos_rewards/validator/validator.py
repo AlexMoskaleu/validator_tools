@@ -79,6 +79,6 @@ def edit_validator():
         network_name = input("Enter the network name: ")
         write_profile_variable("NETWORK_NAME", network_name)
 
-    edit_command = f"{binary_name} tx staking edit-validator --new-moniker {new_moniker} --identity {identity} --details \"{details}\" --website {website} --chain-id {network_name} --commission-rate 0.05 --from {wallet_name} --fees {commission_amount}{token_denom} --yes"
+    edit_command = f"{binary_name} tx staking edit-validator --new-moniker {new_moniker} --identity {identity} --details \"{details}\" --website {website} --chain-id {network_name} --from {wallet_name} --fees {commission_amount}{token_denom} --yes"
     subprocess.run(edit_command, shell=True)
     print("Validator updated successfully.")
