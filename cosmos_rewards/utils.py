@@ -1,5 +1,5 @@
 from cosmos_rewards.profile.profile import collect_information, edit_information
-from cosmos_rewards.rewards.rewards import check_validator_balance, claim_rewards
+from cosmos_rewards.rewards.rewards import check_validator_balance, claim_rewards, send_rewards
 from cosmos_rewards.voting.voting import check_active_votings, perform_voting
 from cosmos_rewards.validator.validator import check_database_weight, update_peers, edit_validator
 
@@ -40,7 +40,8 @@ def rewards_menu():
         print("-------- Rewards Management --------")
         print("1. Check validator balance")
         print("2. Claim rewards from validator")
-        print("3. Back")
+        print("3. Send rewards to wallet")
+        print("4. Back")
 
         option = input("Select an option: ").strip()
         print("----------------------")
@@ -49,8 +50,9 @@ def rewards_menu():
             check_validator_balance()
         elif option == '2':
             claim_rewards()
-
         elif option == '3':
+            send_rewards()
+        elif option == '4':
             break
         else:
             print("Error: Invalid option.")

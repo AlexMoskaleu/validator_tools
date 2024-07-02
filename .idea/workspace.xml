@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f509dec3-1c0f-4f19-8230-a0de8c958481" name="Changes" comment="fix val_edit">
-      <change beforePath="$PROJECT_DIR$/cosmos_rewards/validator/validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos_rewards/validator/validator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos_rewards/rewards/rewards.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos_rewards/rewards/rewards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos_rewards/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos_rewards/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dudav/PycharmProjects/validator_tols&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,6 +56,9 @@
       <option name="presentableId" value="Default" />
       <updated>1715784222656</updated>
       <workItem from="1715784224035" duration="3147000" />
+      <workItem from="1716980664998" duration="42000" />
+      <workItem from="1719917390529" duration="157000" />
+      <workItem from="1719917555023" duration="1790000" />
     </task>
     <task id="LOCAL-00001" summary="add val_edit">
       <option name="closed" value="true" />
